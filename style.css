@@ -1,0 +1,91 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+h1{
+  font-size: 64px;
+}
+
+h2{
+  text-align: center;
+  font-size: 32px;
+}
+
+table img{
+  cursor: pointer;
+}
+img{
+    width: 100%;
+}
+p,td {
+  font-size: 25px;
+  line-height:50px;
+}
+a{
+  color:gold;
+}
+
+
+.rainbow {
+  
+ 
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  
+  
+
+  -webkit-animation: rainbow 5s infinite; 
+  
+ 
+  -ms-animation: rainbow 5s infinite;
+  
+ 
+  animation: rainbow 5s infinite; 
+}
+
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+ 
